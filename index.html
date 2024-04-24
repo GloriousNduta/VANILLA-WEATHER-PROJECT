@@ -6,24 +6,35 @@
     <link rel="stylesheet" href="src/style.css" />
     <title>Document</title>
   </head>
-  <body>
-    <div class="weather-app">
-    <header>
-      <form class="search-form">
-        <input type="search" placeholder="Enter a city" required class="search-form-input" />
-        <input type="submit" value="search" form="search-form-button" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 14:49, scattered clouds<br />
-          Humidity:66&, wind:3.13km/h
-        </p>
-      </div>
-      <div>☀21℃</div>
-      </div>
-    </main>
-  </body>
+  <html>
+    <body class="weather-app">
+      <header>
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city"
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="search" form="search-form-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city">Paris</h1>
+            <p class="weather-app-details">
+              Tuesday 14:49, scattered clouds<br />
+              Humidity:<strong>66&</strong>, wind:<strong>3.13km/h</strong>
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-icon">☀</div>
+            <div class="weather-app-temperature">21</div>
+            <div class="weather-app-unit">℃</div>
+          </div>
+        </div>
+      </main>
+    </body>
+  </html>
 </html>
