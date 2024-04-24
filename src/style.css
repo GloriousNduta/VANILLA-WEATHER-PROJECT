@@ -46,7 +46,7 @@ main {
 }
 .weather-app-details {
   font-size: 16px;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(8, 8, 8, 0.4);
   font-weight: 500;
 }
 .weather-app-details.strong {
